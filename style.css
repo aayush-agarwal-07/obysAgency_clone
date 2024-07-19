@@ -195,7 +195,7 @@ body {
 }
 
 #page1 {
-    height: 100vh;
+    height: 120vh;
     width: 100%;
     /* background-color: #151515; */
     position: relative;
@@ -229,7 +229,7 @@ body {
 }
 
 #nav-part2 h4 {
-    font-size: 0.8vw;
+    font-size: 1.2vw;
     font-weight: 500;
 }
 
@@ -352,7 +352,7 @@ body {
     position: relative;
     padding: 17vh 2vw;
     margin-bottom: 20vh;
-    margin-top: 20vh;
+    margin-top: 26vh;
 }
 
 #page3 h1 {
@@ -627,7 +627,7 @@ body {
 }
 
 #page5 {
-    min-height: 100vh;
+    min-height: 120vh;
     width: 100%;
     position: relative;
 }
@@ -728,7 +728,7 @@ body {
     /* background-color: red; */
     position: relative;
     padding-left: 28vw;
-    margin-top: 5vw;
+    margin-top: 11vw;
     padding-right: 2vw;
 }
 
@@ -927,6 +927,7 @@ body {
         z-index: 100;
         /* background-color: red; */
         padding-top: 1px;
+        
     }
 
     #page1 #nav {
@@ -1024,6 +1025,8 @@ body {
         width: 100%;
         padding-top: 6vh;
         position: relative;
+        border-bottom: 200px;
+        
     }
 
     #video-container {
@@ -1080,7 +1083,8 @@ body {
         position: relative;
         padding: 17vh 3vw 0 3vw;
         margin-bottom: 0vh;
-        margin-top: 0vh;
+        margin-top: 50vh;
+        overflow:hidden
     }
 
     #page3 h1 {
@@ -1275,12 +1279,14 @@ body {
         width: 100%;
         /* background-color: rgb(61, 61, 61); */
         padding: 10vh 5vw;
+        margin-top: 30vh;
     }
 
     #page4-content {
         width: 90vw;
         position: relative;
         margin-left: 0%;
+        
         /* background-color: red; */
     }
 
@@ -1304,12 +1310,12 @@ body {
         height: 1px;
         width: 100%;
         background-color: #fff;
-        margin: 9vw 0 14vw 0;
+        margin: 3vw 0 7vw 0;
     }
 
     #page4-content > p {
         font-size: 5.8vw;
-        width: 90%;
+        width: 95%;
         margin-bottom: 3vw;
     }
 
@@ -1375,9 +1381,10 @@ body {
     }
 
     #page5 {
-        min-height: 60vh;
+        min-height: 80vh;
         width: 100%;
         position: relative;
+        /* background-color: red; */
     }
 
     .elem {
@@ -1474,7 +1481,7 @@ body {
         height: 108vh;
         width: 100%;
         /* background-color: red; */
-        margin-top: 20vw;
+        margin-top: 40vw;
         position: relative;
         padding: 5vw 5vw;
         padding-bottom: 5vw;

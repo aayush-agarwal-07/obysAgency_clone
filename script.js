@@ -108,8 +108,8 @@ function cursorAnimation() {
         opacity: 0
       });
       gsap.to("#video-cursor", {
-        left: dets.x - 570,
-        y: dets.y - 300,
+        left: dets.x - 410,
+        y: dets.y - 148,
       });
     });
   });
@@ -159,8 +159,8 @@ function flagAnimation() {
 
   document.addEventListener("mousemove", function (dets) {
     gsap.to("#flag", {
-      x: dets.x,
-      y: dets.y
+      x: dets.x-115,
+      y: dets.y + 12
     })
   })
   document.querySelector("#hero3").addEventListener("mouseenter", function () {
